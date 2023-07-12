@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  background-color: aliceblue;
+}
+
+#timer {
+  font-size: xxx-large;
+  text-align: center;
+  color: orange;
+}
