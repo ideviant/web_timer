@@ -10,10 +10,17 @@
 </head>
 
 <body>
-    <div id="timer">当前时间：</div>
+    <div class="main">
+        <div id="date"></div>
+        <div id="timer"></div>
+    </div>
+
     <script>
         setInterval(function () {
             var date = new Date();
+            var date_now = date.toDateString();
+            document.getElementById("date").innerHTML = date_now;
+
             var hours = date.getHours();
 
             var minutes = date.getMinutes();

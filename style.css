@@ -1,9 +1,19 @@
-#timer {
+.main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  flex-direction: column;
   color: #f24c3d;
-  font-size: 10vw;
   font-family: "Courier New", Courier, monospace;
+  height: 100vh;
+  padding-bottom: 10vh;
+}
+
+#date {
+  color: grey;
+  font-size: 5vw;
+}
+
+#timer {
+  font-size: 10vw;
 }
