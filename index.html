@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" href="./style.css">
     <title>Timer</title>
 </head>
@@ -14,6 +15,7 @@
         setInterval(function () {
             var date = new Date();
             var hours = date.getHours();
+
             var minutes = date.getMinutes();
             if (minutes < 10) {
                 minutes = "0" + minutes;

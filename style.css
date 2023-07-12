@@ -1,14 +1,8 @@
-body {
-  padding: 0;
-  margin: 0;
-}
-
 #timer {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #ecf8f9;
   color: #f24c3d;
   font-size: 10vw;
   font-family: "Courier New", Courier, monospace;
