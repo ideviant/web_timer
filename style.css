@@ -8,8 +8,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: aliceblue;
-  color: orange;
-  font-size: xxx-large;
+  background-color: #ecf8f9;
+  color: #e55807;
+  font-size: 10vw;
   font-family: "Courier New", Courier, monospace;
 }
