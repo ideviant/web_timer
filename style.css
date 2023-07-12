@@ -1,11 +1,15 @@
-.main {
-  background-color: aliceblue;
+body {
+  padding: 0;
+  margin: 0;
 }
 
 #timer {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: xxx-large;
+  height: 100vh;
+  border: radius 10px;
+  background-color: aliceblue;
   color: orange;
+  font-size: xxx-large;
 }
