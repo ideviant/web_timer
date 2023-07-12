@@ -16,10 +16,18 @@
             var hours = date.getHours();
             var minutes = date.getMinutes();
             var seconds = date.getSeconds();
+            if (seconds < 10) {
+                seconds = "0" + seconds;
+            }
+
             var milliseconds = date.getMilliseconds();
-            document.getElementById("timer").innerHTML = "当前时间：" + hours + ":" + minutes + ":" + seconds + ":" + milliseconds;
+            if (milliseconds < 100 & milliseconds > 10) {
+                milliseconds = "0" + milliseconds;
+            }
+            else if (milliseconds < 10) {
+                milliseconds = "00" + milliseconds;
+            }
+            document.getElementById("timer").innerHTML = hours + ":" + minutes + ":" + seconds + ":" + milliseconds;
         }, 10);
     </script>
-</body>
-
-</html>
+</body </html>
