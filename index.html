@@ -22,6 +22,9 @@
             document.getElementById("date").innerHTML = date_now;
 
             var hours = date.getHours();
+            if (hours < 10) {
+                hours = "0" + hours;
+            }
 
             var minutes = date.getMinutes();
             if (minutes < 10) {
@@ -34,10 +37,9 @@
             }
 
             var milliseconds = date.getMilliseconds();
-            if (milliseconds < 100 & milliseconds > 10) {
+            if (milliseconds > 10 & milliseconds < 100) {
                 milliseconds = "0" + milliseconds;
-            }
-            else if (milliseconds < 10) {
+            } else if (milliseconds < 10) {
                 milliseconds = "00" + milliseconds;
             }
 
